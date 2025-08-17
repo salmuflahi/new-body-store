@@ -1,39 +1,59 @@
-/* Reset */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
-/* Menu button */
-#menu-btn {
-  font-size: 24px;
-  padding: 10px 20px;
-  cursor: pointer;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1001;
+button {
+    color: #020202;
+    background-color: transparent;
+    border: none;
+}
+#menu-btn{
+    text-align: left;
+    font-size: 35px;
+    height: 10px;
+}
+#title-logo {
+    text-align: center;
+    font-size: 25px;
+    width: 2em;
 }
 
-/* Sidebar styles */
+#cart-btn{
+    text-align: ;
+}
+#navbar {
+    padding: 10px;
+    background-color: rgb(186, 189, 149);
+    color: #020202;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+}
+
+
+
 #sidebar {
-  height: 100%;
-  width: 0; /* Hidden at first */
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: width 0.3s ease;
-  padding-top: 60px;
-  z-index: 1000;
+    color: black;
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #dfdede;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+    border-right: 2px solid #020202; 
 }
 
 #sidebar a {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: rgb(0, 0, 0);
   display: block;
   transition: background 0.2s;
 }
@@ -50,6 +70,6 @@ body {
   font-size: 36px;
   background: none;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
