@@ -4,33 +4,37 @@ body {
   font-family: Arial, sans-serif;
 }
 
+header {
+  background-color: rgb(186, 189, 149);
+  color: #020202;
+  background-color: ;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 button {
-    color: #020202;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
+
 #menu-btn{
     text-align: left;
     font-size: 35px;
-    height: 10px;
 }
+
 #title-logo {
     text-align: center;
     font-size: 25px;
-    width: 2em;
+    padding: 10px;
 }
 
-#cart-btn{
-    text-align: ;
-}
-#navbar {
-    padding: 10px;
-    background-color: rgb(186, 189, 149);
-    color: #020202;
-    text-align: center;
-    align-items: center;
-    position: sticky;
-}
+
 
 
 
@@ -49,7 +53,7 @@ button {
     border-right: 2px solid #020202; 
 }
 
-#sidebar a {
+#menu-btn a {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 18px;
@@ -58,11 +62,10 @@ button {
   transition: background 0.2s;
 }
 
-#sidebar a:hover {
-  background: #575757;
+#menu-btn a:hover {
+  background: #aba2a2;
 }
 
-/* Close button inside sidebar */
 #close-btn {
   position: absolute;
   top: 20px;
